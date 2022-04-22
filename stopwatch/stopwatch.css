@@ -1,0 +1,67 @@
+body{
+  display:flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  max-width: 767px;
+  background-color: black;
+  color:white;
+}
+
+h1{
+  text-align: center;
+}
+
+.Stopwatch{
+  display:block;
+  flex-direction: column;
+  max-width: 767px;
+  text-align: center;
+}
+
+.WatchWrapper{
+  display: inline-flex;
+  width: auto;
+  font-size:80px;
+  margin: 50px;
+}
+
+.WatchWrapper p{
+  margin: 0;
+}
+
+.ButtonWrapper{
+  display: inline-flex;
+  justify-content: space-between;
+  width: auto;
+}
+
+button{
+  font-size: 100%;
+  width:100px;
+  height:100px;
+  border-radius:100%;
+  margin: 50px;
+  font-weight: 700;
+  border: double 8px;
+}
+
+.button_start{
+  color:rgb(1, 80, 1);
+  background-color: rgb(206, 252, 137);
+}
+
+.button_stop{
+  color:rgb(123, 5, 5);
+  background-color: rgb(248, 177, 155);
+}
+
+.button_reset{
+  color:rgb(27, 5, 123);
+  background-color: rgb(155, 161, 248);
+}
+
+:disabled{
+  color:rgb(125, 124, 124);
+  background-color: rgb(195, 193, 192);
+}
